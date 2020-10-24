@@ -1,0 +1,585 @@
+body
+{
+    font-family: 'Source Sans Pro', sans-serif;
+
+  color: #787878;
+  
+}
+
+
+#home
+{
+   
+ 
+    
+}
+
+
+.home_nav
+{
+    border-bottom: 1px solid #787878;
+}
+
+.nav_bor
+{
+    border-right: 1px solid #787878;
+}
+
+.nav_icon
+{
+    color: #fff
+}
+
+
+
+
+.layout
+{
+    
+    height: 100%;
+    width: 100%;
+   background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+        
+    
+    
+}
+
+.home_bg1
+{
+    background-image: url(../img/bg-image-28.jpg);
+    background-size: 100% 100%;
+    
+    text-align: center;
+    
+}
+
+.home_bg2
+{
+    background-image: url(../img/bg-image-29.jpg);
+    background-size: 100% 100%;
+    
+    text-align: center;
+    
+}
+
+.home_cap
+{
+    width: 50%;
+   
+    color: #fff;
+    
+     
+}
+
+
+.home_cap h1
+{
+    font-weight: 900;
+    font-size: 5em;
+    letter-spacing: .1em;
+    opacity: 1;
+    animation: cap;
+    animation-duration: 1s;
+}
+
+
+.home_cap p
+{
+    font-weight: 200;
+    font-size: 2.5em;
+    opacity: 1;
+    animation-name: cap;
+    animation-duration: 1s;
+}
+
+.home-button
+{
+    opacity: 1;
+    animation-name: cap;
+    animation-duration: 1s;
+}
+
+
+@keyframes cap
+{
+    from{opacity: 1;}
+    to{opacity: 0;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about
+{
+    
+    
+    overflow: auto;
+    
+}
+
+.about_cap h3
+{
+    font-weight: 300;
+    font-size: 2em;
+}
+
+
+.about_cap p
+{
+    font-size: 1em;
+}
+
+
+.about_item
+{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+
+.about_img img
+{
+    width: 100%;
+    
+}
+
+
+.about_cap2 p
+{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#team
+{
+   
+}
+
+
+.teamh3
+{
+    position: absolute;
+    bottom: .5%;
+    font-weight: 700;
+    font-size: 4em;
+    color: rgba(0,0,0,.1);
+        
+    
+}
+
+.team_cap
+{
+    position: relative;
+}
+
+
+.teamh2
+{
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: 2px;
+    color: #000;
+        
+}
+
+
+
+.team_line
+{
+    width: 3%;
+    height: 2px;
+    background-color: #000;
+        
+    
+}
+
+
+.team_img
+{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.team_img img
+{
+    width: 100%;
+    
+}
+
+.img_hover
+{
+    opacity: 0;
+    background-color: rgba(0, 195, 218, 0.9);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transition: .3s;
+    
+        
+    
+}
+
+
+
+.img_hover
+{
+    color: #fff;
+}
+.team_img_cap
+{
+    color: #fff;
+    
+}
+
+
+.team_img:hover .img_hover
+{
+    top: 0%;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#services
+{
+  
+    background-image: url(../img/bg-image-26.jpg);
+    background-size:cover;
+    
+}
+
+
+.ser_layout
+{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    
+        
+}
+
+.ser_icon
+{
+    color: #fff;
+}
+
+.ser_ic1
+{
+    font-size: 4em;
+}
+
+
+
+
+.ser_cap2
+{
+    color: #fff;
+}
+
+.what
+{
+    position: relative;
+}
+
+.what_w
+{
+    position: absolute;
+    bottom: 2%;
+    font-size: 4em;
+    font-weight:  700;
+    color: rgba(255,255,255,0.1)
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#work
+{
+   
+    
+    padding: 1px;
+}
+
+
+.work_cap1
+{
+    
+}
+
+.work_line
+{
+    width: 2%;
+    height: 2px;
+    background-color: #000;
+    transition: 1s
+}
+
+.work_cap1:hover .work_line
+{
+    width: 5%;
+}
+
+
+
+
+.all_img
+{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.all_img img
+{
+    width:100%;
+}
+
+
+
+
+.all_block
+{
+    opacity: 0;
+    width: 90%;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    position: absolute;
+    top: 70%;
+    transition: 1s;
+        
+}
+
+
+.all_img:hover .all_block
+{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pricing
+{   background-color: #f7f7f7;
+    padding: 1px;
+}
+
+
+
+.pricing_item1
+{
+    width: 100%;
+    color: #000;
+}
+
+.pri9
+{
+    font-weight: 800;
+    font-size: 2em;
+    
+}
+
+
+.price_line
+{
+    width: 50%;
+    height: 1px;
+    background-color:#787878; 
+}
+
+
+
+
+.item_pri
+{
+    position: relative;
+    background-color: #fff;
+    padding-top: 1px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item_pri_img img
+{
+    
+    width: 4em;
+    border-radius: 50%;
+}
+
+.item_pri_img
+{
+    position: absolute;
+    top: -9%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact
+{
+    
+    
+    
+}
+
+
+.cont_contact
+{
+    position: relative;
+    
+}
+
+
+.cont_h2
+{
+    position: absolute;
+    bottom: .5%;
+    
+    font-weight: 700;
+    font-size: 4em;
+    color: rgba(0,0,0,0.1)
+        
+        
+}
+
+
+.cont_h1
+{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
